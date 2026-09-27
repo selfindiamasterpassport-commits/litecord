@@ -2,6 +2,8 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "litecord",
   "compatibility_date": "2026-09-27",
+  // Pinned so a deploy can never silently land in the wrong account.
+  "account_id": "52ff140dc5c98a0c2fcc951435795897",
   "assets": {
     "directory": "./public",
     "not_found_handling": "404-page"
