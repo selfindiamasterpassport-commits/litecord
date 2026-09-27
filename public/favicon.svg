@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="108" height="108">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9B7BFF"/>
+      <stop offset="1" stop-color="#5B3FE0"/>
+    </linearGradient>
+  </defs>
+  <rect width="108" height="108" rx="24" fill="url(#g)"/>
+  <!-- fill-rule=evenodd turns the bolt subpath into a hole, so the tile shows through. -->
+  <path fill="#fff" fill-rule="evenodd" d="M22,24 a12,12 0 0 1 12,0 h40 a12,12 0 0 1 12,12 v18 a12,12 0 0 1 -12,12 h-40 a12,12 0 0 1 -12,-12 z M37,62 L32,84 L52,62 Z M57.18,30.16 L44.46,48.18 L51.88,48.18 L48.7,59.84 L63.54,41.82 L55.06,41.82 Z"/>
+</svg>
