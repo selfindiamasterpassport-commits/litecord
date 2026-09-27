@@ -13,6 +13,12 @@ $RECYCLE.BIN/
 .DS_Store
 ._*
 
-# NOTE: download/app-release.apk is intentionally committed.
-# Cloudflare Pages deploys from the repo, so the APK has to be in git for the
-# download link to resolve.
+# Node / Wrangler
+node_modules/
+.wrangler/
+.dev.vars
+npm-debug.log*
+
+# NOTE: public/download/app-release.apk is intentionally committed.
+# The Worker deploys from public/, so the APK has to be in git for the download
+# link to resolve.

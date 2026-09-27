@@ -1,4 +1,6 @@
-# Cloudflare Pages
+# Cloudflare Workers Static Assets
+# Parsed by Workers, not served as a file.
+#
 # Assets are content-stable, so cache them hard. The HTML and the APK change
 # between deploys, so they must revalidate or you ship a stale download.
 
@@ -6,6 +8,9 @@
   Cache-Control: public, max-age=31536000, immutable
 
 /index.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/404.html
   Cache-Control: public, max-age=0, must-revalidate
 
 /download/*
