@@ -1,0 +1,18 @@
+# Windows
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+._*
+
+# NOTE: download/app-release.apk is intentionally committed.
+# Cloudflare Pages deploys from the repo, so the APK has to be in git for the
+# download link to resolve.
